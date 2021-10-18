@@ -400,6 +400,10 @@ $primaryLight: #FC6C6D;
     @media (max-width: 767px) {
       background-image: url(images/lp-rtv/320/img-1.png);
       max-height: 320px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: right;
+      margin-bottom: -5px;
     }
   }
 }
@@ -416,14 +420,23 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 767px) {
       background-image: url(images/lp-rtv/320/img-2.png);
+      background-size: cover;
+      background-position: top;
+      min-height: 320px;
+      height: 80vw;
     }
   }
   .img7{
     background-image: url(images/lp-rtv/1350/img-7.png);
     background-size: cover;
     background-position: center;
-    @media (max-width: 767px) {
+    @media (max-width: 576px) {
       background-image: url(images/lp-rtv/320/img-7.png);
+      background-size: cover;
+      background-position: right;
+      background-repeat: no-repeat;
+      min-height: 320px;
+      height: 60vw;
     }
   }
   .img12{
@@ -432,6 +445,8 @@ $primaryLight: #FC6C6D;
     background-position: center;
     @media (max-width: 767px) {
       background-image: url(images/lp-rtv/320/img-12.png);
+      background-position: top;
+      background-size: cover;
     }
   }
 
@@ -614,7 +629,9 @@ $primaryLight: #FC6C6D;
     max-height: 670px;
     @media (max-width: 767px) {
       background-image: url(images/lp-rtv/320/img-4.png);
-      height: 200px;
+      min-height: 200px;
+      height: 40vw;
+      background-position: top;
     }
   }
   .img6 {
@@ -625,7 +642,9 @@ $primaryLight: #FC6C6D;
     max-height: 670px;
     @media (max-width: 767px) {
       background-image: url(images/lp-rtv/320/img-6.png);
-      height: 200px;
+      min-height: 200px;
+      height: 40vw;
+      background-position: center;
     }
   }
   .img11 {
@@ -636,6 +655,9 @@ $primaryLight: #FC6C6D;
     max-height: 670px;
     @media (max-width: 767px) {
       height: 200px;
+      min-height: 200px;
+      height: 40vw;
+      background-position: center;
     }
   }
 }
@@ -670,7 +692,9 @@ $primaryLight: #FC6C6D;
       @media (max-width: 767px) {
         background-image: url(images/lp-rtv/320/img-8.png);
         background-position: center;
-        height: 320px;
+        background-size: cover;
+        min-height: 320px;
+        height: 50vw;
       }
     }
     &-img2 {
@@ -683,7 +707,9 @@ $primaryLight: #FC6C6D;
       @media (max-width: 767px) {
         background-image: url(images/lp-rtv/320/img-9.png);
         background-position: center;
-        height: 320px;
+        background-size: cover;
+        min-height: 320px;
+        height: 50vw;
       }
     }
   }
@@ -703,7 +729,8 @@ $primaryLight: #FC6C6D;
         background-image: url(images/lp-rtv/320/img-3.png);
         background-size: contain;
         background-position: right;
-        height: 200px;
+        min-height: 200px;
+        height: auto;
       }
     }
   }
