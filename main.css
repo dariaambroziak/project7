@@ -39,6 +39,7 @@
   .lp-hama-rtv p {
     font-size: 12px;
     line-height: 16px;
+    margin: 0 0 1rem 0;
   }
 }
 
@@ -57,8 +58,8 @@
 
 @media (max-width: 767px) {
   .lp-hama-rtv h2 {
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 25px;
+    line-height: 32px;
   }
 }
 
@@ -72,6 +73,12 @@
 @media (max-width: 576px) {
   .lp-hama-rtv .h2-small {
     font-size: 23px;
+  }
+}
+
+@media (max-width: 576px) {
+  .lp-hama-rtv .m-pb30 {
+    padding-bottom: 30px !important;
   }
 }
 
@@ -686,6 +693,18 @@
   }
 }
 
+.lp-hama-rtv .offer__title {
+  position: relative;
+  height: 45vw;
+  max-height: 670px;
+}
+
+@media (max-width: 767px) {
+  .lp-hama-rtv .offer__title {
+    height: 100%;
+  }
+}
+
 .lp-hama-rtv .offer .button {
   position: absolute;
   bottom: 2rem;
@@ -882,6 +901,7 @@
   background-color: #E3032E;
   color: white;
   max-height: 360px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 576px) {
